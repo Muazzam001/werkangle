@@ -1264,11 +1264,14 @@ body.modal-open .custom-scrollbar {
    background-size: contain;
     background-position: 0%;
      height: 45%;
-    min-height: 285px;
+    min-height: 350px;
     background-color: #dae3f3;
     display: flex;
     justify-content: flex-start;
     align-items: flex-end;
+	max-height: 400px;
+	position: absolute;
+	bottom: 0;
 }
 .footer-img{
     width: 55%;
